@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(240, 242, 245);
+}
+.divw{
+    width: 1300px;
+    margin: 0px auto;
+}
+header{
+    background-image: url(Design-set2/Images/banner.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+.shadow1{
+    background-color: rgba(31, 31, 37, 0.8);
+    height: 90vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1 a{
+    padding: 10px;
+}
+li{
+    list-style: none;
+}
+.div1 li{
+    padding: 10px 5px;
+    margin: 10px;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.div1 select{
+    border: none;
+    background-color: rgb(83, 197, 159);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hover1 li:hover{
+    background-color: rgb(225, 61, 61);
+    border: 1px solid rgb(225, 61, 61);
+    border-radius: 15px;
+    padding: 9px 4px;
+}
+.hover1 li:hover select{
+    background-color: rgb(225, 61, 61);
+}
+.clock{
+    font-size: 16px;
+    font-weight: bold;
+}
+.clock1 li,a{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
+.div2 select{
+    border: none;
+    color: rgb(83, 82, 82);
+    font-size: 16px;
+    font-weight: bold;
+}
+.searchbar input{
+    padding: 10px 0px;
+    border-radius: 15px;
+}
+.div2 li{
+    padding: 10px 2px;
+    margin: 10px 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.div2 a{
+    padding: 0px;
+}
+.div2 ul li:last-child{
+    padding-top: 0px;
+}
+.align-content{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0px;
+    color: white;
+}
+.button-hover button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: rgba(31, 31, 37, 0.1);
+    border-color: rgba(31, 31, 37, 0.1);
+    color: white;
+    font-size: 16px;
+}
+.button-hover button:hover{
+    background-color: rgb(225, 61, 61);
+    color: white;
+}
+.bgimage{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+.bgimage div{
+    padding: 10px 30px;
+}
+.bgwhite{
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    top: 80vh;
+    padding: 20px;
+}
+.bgwhite1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bgwhite div a:first-child{
+    color: red;
+}
+.selectitems{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.selectitems select{
+    border-radius: 25px;
+    width: 230px;
+    padding: 3px 0px;
+    font-size: 18px;
+}
+.button-hover1 button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: white;
+    border-color: rgb(164, 164, 164);
+    color: black;
+    font-size: 16px;
+}
+.button-hover1 button:hover{
+    background-color: rgb(225, 61, 61);
+    border-color: rgb(225, 61, 61);
+    color: white;
+}
+.logos{
+    position: fixed;
+    top: 60vh;
+    left: 20px;
+}
+.logos1 div{
+    margin: 6px 0px;
+}
+.bgimage1{
+    border-right: 1px solid white;
+}
