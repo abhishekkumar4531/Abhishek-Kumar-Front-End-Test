@@ -115,16 +115,16 @@ ul{
 .bgimage{
     display: flex;
     justify-content: space-between;
-    margin: 60px 0px;
+    margin: 180px 0px;
 }
 .bgimage div{
     padding: 10px 30px;
 }
 .bgwhite{
     background-color: white;
-    position: absolute;
+    position: relative;
     border-radius: 10px;
-    top: 80vh;
+    bottom: 60px;
     padding: 20px;
 }
 .bgwhite1{
@@ -169,4 +169,7 @@ ul{
 }
 .bgimage1{
     border-right: 1px solid white;
+}
+.div2 select{
+    background-color: white;
 }
